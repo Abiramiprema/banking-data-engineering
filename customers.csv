@@ -1,0 +1,6 @@
+customer_id,first_name,last_name,email,phone,date_of_birth,address,city,state,created_at,updated_at
+1,Arun,Kumar,arun@gmail.com,9876543210,1998-05-12,"Anna Nagar",Chennai,"Tamil Nadu","2026-09-04 21:06:04","2026-09-04 21:06:04"
+2,Priya,Sharma,priya@gmail.com,9876543211,1997-08-20,"KK Nagar",Madurai,"Tamil Nadu","2026-09-04 21:06:04","2026-09-04 21:06:04"
+3,Rahul,Raj,rahul@gmail.com,9876543212,1999-01-15,"RS Puram",Coimbatore,"Tamil Nadu","2026-09-04 21:06:04","2026-09-04 21:06:04"
+4,Divya,Mohan,divya@gmail.com,9876543213,1996-11-03,Srirangam,Trichy,"Tamil Nadu","2026-09-04 21:06:04","2026-09-04 21:06:04"
+5,Karthik,Suresh,karthik@gmail.com,9876543214,2000-03-25,Palayamkottai,Tirunelveli,"Tamil Nadu","2026-09-04 21:06:04","2026-09-04 21:06:04"

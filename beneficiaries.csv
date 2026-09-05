@@ -1,0 +1,6 @@
+beneficiary_id,customer_id,beneficiary_name,account_number,bank_name,created_at,updated_at
+1,1,"Ravi Kumar",BEN100001,SBI,"2026-09-04 21:06:04","2026-09-04 21:06:04"
+2,1,"Priya Sharma",BEN100002,HDFC,"2026-09-04 21:06:04","2026-09-04 21:06:04"
+3,2,"Arun Kumar",BEN100003,ICICI,"2026-09-04 21:06:04","2026-09-04 21:06:04"
+4,3,"Divya Mohan",BEN100004,"Axis Bank","2026-09-04 21:06:04","2026-09-04 21:06:04"
+5,4,"Karthik Suresh",BEN100005,SBI,"2026-09-04 21:06:04","2026-09-04 21:06:04"
