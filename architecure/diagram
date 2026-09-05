@@ -1,0 +1,52 @@
+┌─────────────────────┐
+│     MySQL OLTP      │
+└─────────────────────┘
+           ↓
+┌─────────────────────┐
+│    PySpark JDBC     │
+└─────────────────────┘
+           ↓
+┌─────────────────────┐
+│   Bronze Layer      │
+│   Raw Delta Tables  │
+└─────────────────────┘
+           ↓
+┌─────────────────────┐
+│ Data Quality &      │
+│ Cleaning            │
+└─────────────────────┘
+           ↓
+┌─────────────────────┐
+│    Silver Layer     │
+│ Cleaned Delta Tables│
+└─────────────────────┘
+           ↓
+┌─────────────────────┐
+│ Business            │
+│ Transformations     │
+└─────────────────────┘
+           ↓
+┌─────────────────────┐
+│     Gold Layer      │     
+│    Star Schema      │
+└─────────────────────┘
+
+dim_customer
+dim_account
+dim_branch
+dim_date
+dim_loan
+dim_card
+
+fact_transactions
+fact_loan_payments
+fact_card_transactions
+fact_account_balance
+           ↓
+┌─────────────────────┐
+│ Analytics / SQL     │
+└─────────────────────┘
+           ↓
+┌─────────────────────┐
+│ Databricks Dashboard│
+└─────────────────────┘
